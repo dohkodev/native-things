@@ -18,7 +18,7 @@ const ComponentsScreen = () => {
             keyExtractor={friend => friend.nombre}
             data={Amigos}
             renderItem={({item}) => {
-            return <Text style={styles.textStyle}>{item.nombre} - {item.edad}</Text>
+            return <Text style={styles.textStyle}>{item.nombre} - edad {item.edad}</Text>
             }}
         /> 
 
