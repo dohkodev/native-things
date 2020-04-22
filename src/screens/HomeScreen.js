@@ -7,15 +7,27 @@ const HomeScreen = ({ navigation }) => { // => destructurando props con { naviga
     <Button 
       title="Ir al componente Demo"
       onPress={() => navigation.navigate('Components')}
-      />
+    />
     <Button 
       title="Ir al componente Lista"
       onPress={() => navigation.navigate('List')}
-      />
+    />
     <Button 
       title="Ir al componente Imagen"
       onPress={() => navigation.navigate('Image')}
-      />
+    />
+    <Button 
+      title="Ir al componente Contador"
+      onPress={() => navigation.navigate('Counter')}
+    />
+    <Button 
+      title="Ir al componente Color"
+      onPress={() => navigation.navigate('Color')}
+    />
+    <Button 
+      title="Ir al componente Cuadrado"
+      onPress={() => navigation.navigate('Square')}
+    />
 
         {/*     <TouchableOpacity
               onPress={() => props.navigation.navigate('List')}
