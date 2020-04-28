@@ -32,7 +32,10 @@ const HomeScreen = ({ navigation }) => { // => destructurando props con { naviga
       title="Ir al componente del Texto"
       onPress={() => navigation.navigate('Text')}
     />
-
+    <Button 
+      title="Ir al componente del BOX"
+      onPress={() => navigation.navigate('Box')}
+    />
         {/*     <TouchableOpacity
               onPress={() => props.navigation.navigate('List')}
             >
